@@ -1,0 +1,54 @@
+{
+    "name": "Juego de disparos",
+    "short_name": "shotGame",
+    "icons": [
+        { "src": "assts/bueno_muerto.png",
+        "sizes": "100x95",
+        "type": "image/png"
+        },
+        { "src": "assts/bueno.png",
+            "sizes": "100x100",
+            "type": "image/png"
+            },
+        { "src": "assts/game_over.png",
+            "sizes": "320X160",
+            "type": "image/png"
+            },
+        { "src": "assts/jefe_muerto.png",
+            "sizes": "100x95",
+            "type": "image/png"
+            },
+        { "src": "assts/jefe.png",
+            "sizes": "100x95",
+            "type": "image/png"
+            },
+        { "src": "assts/malo_muerto.png",
+            "sizes": "100x95",
+            "type": "image/png"
+            },
+        { "src": "assts/malo.png",
+            "sizes": "98x84",
+            "type": "image/png"
+            },
+        { "src": "assts/screenshot.png",
+            "sizes": "187x264",
+            "type": "image/png"
+            },
+        { "src": "assts/shot1.png",
+            "sizes": "30x30",
+            "type": "image/png"
+            },
+        { "src": "assts/shot2.png",
+            "sizes": "30x30",
+            "type": "image/png"
+            },
+        { "src": "assts/you_win.png",
+            "sizes": "640x80",
+            "type": "image/png"
+            }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6200ee"
+}
