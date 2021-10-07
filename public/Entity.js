@@ -28,6 +28,7 @@ class Entity {
         this.image.style.width = this.width === "auto" ? "auto" : `${this.width}px`;
         this.image.style.top = `${this.y}px`;
         this.image.style.left = `${this.x}px`;
+        this.image.alt = "Entity";
         document.body.appendChild(this.image);
     }
 
