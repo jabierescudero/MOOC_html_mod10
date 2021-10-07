@@ -1,6 +1,6 @@
 'use sctict';
 let deferredInstallPrompt = null;
-const installButton = document.getElementById('installButton') || undefined;
+let installButton = document.getElementById('installButton') || undefined;
 document.addEventListener("DOMContentLoaded", () => {
     installButton = document.getElementById('installButton');
     installButton.addEventListener('click', installPWA);
