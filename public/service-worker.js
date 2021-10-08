@@ -28,9 +28,14 @@ const FILES_TO_CACHE = [
     '/assets/screenshot.png',
     '/assets/shot1.png',
     '/assets/shot2.png',
-    '/assets/you_win.png'
-  ];
+    '/assets/you_win.png',
 
+    'icons/camera128.png',
+    'icons/camera192.png',
+    'icons/camera256.png',
+    'icons/camera512.png',
+    'icons/camera640.png'
+  ];
 
 self.addEventListener('install', (evt) => {
     console.log('[ServiceWorker] Install');
