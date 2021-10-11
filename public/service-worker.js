@@ -4,7 +4,6 @@ const CACHE_NAME = 'static-cache-v9';
 const FILES_TO_CACHE = [
     '/offline.html',
     '/index.html',
-
     '/Character.js',
     '/Entity.js',
     '/Game.js',
@@ -13,11 +12,8 @@ const FILES_TO_CACHE = [
     '/Opponent.js',
     '/Player.js',
     '/Shot.js',
-
     '/game.css',
-
     '/manifest.json',
-
     '/assets/bueno_muerto.png',
     '/assets/bueno.png',
     '/assets/game_over.png',
@@ -29,12 +25,11 @@ const FILES_TO_CACHE = [
     '/assets/shot1.png',
     '/assets/shot2.png',
     '/assets/you_win.png',
-
-    'icons/camera128.png',
-    'icons/camera192.png',
-    'icons/camera256.png',
-    'icons/camera512.png',
-    'icons/camera640.png'
+    '/icons/camera128.png',
+    '/icons/camera192.png',
+    '/icons/camera256.png',
+    '/icons/camera512.png',
+    '/icons/camera640.png'
   ];
 
 self.addEventListener('install', (evt) => {

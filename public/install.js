@@ -2,8 +2,8 @@
 let deferredInstallPrompt = null;
 let installButton = undefined;
 document.addEventListener("DOMContentLoaded", () => {
-    installButton = document.getElementById('installButton');
-    installButton.addEventListener('click', installPWA);
+   installButton = document.getElementById('installButton');
+   // installButton.addEventListener('click', installPWA);
 });
 
 window.addEventListener('beforeinstallprompt', saveBeforeInstallPromptEvent);
@@ -11,6 +11,10 @@ window.addEventListener('beforeinstallprompt', saveBeforeInstallPromptEvent);
 function saveBeforeInstallPromptEvent(evt) {
     // CODELAB: Add code to save event & show the install button.
     deferredInstallPrompt = evt;
+    
+    //installButton = document.getElementById('installButton');
+    installButton.addEventListener('click', installPWA);
+
     installButton.removeAttribute('hidden');
   }
 
